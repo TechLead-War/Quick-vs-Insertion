@@ -1,6 +1,8 @@
-# Quick-vs-Insertion-vsBubble-sort
 
+# Quick-vs-Insertion-vsBubble-sort
+```
 Array size	bubble_time	insertion_time	quick_time
+
 5		0.000004	0.000002	0.000006	
 5		0.000003	0.000002	0.000005	
 5		0.000003	0.000001	0.000003	
@@ -214,3 +216,4 @@ Array size	bubble_time	insertion_time	quick_time
 100000		424.567386	193.704158	0.072201	
 100000		422.000164	193.948594	0.068082	
 100000		424.011693	196.022422	0.073804
+```
