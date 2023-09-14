@@ -1,5 +1,14 @@
 
 # Quick-vs-Insertion-vsBubble-sort
+
+What you will see is, till a certain point Insertion sort is super fast then quick sort, but slowly it beats overtime.
+1. insertion sort has a lower constant factor in its time complexity compared to quicksort.
+2. Insertion sort has a linear time complexity of O(n) for nearly sorted or small lists, which makes it a good choice when dealing with a small number of items. It performs especially well when the list is already partially sorted.
+
+
+** Note : Keep in mind that the threshold for when "small" becomes "large" can vary depending on factors like the specific implementation of the sorting algorithm, the hardware it's running on, and the nature of the data being sorted. In practice, it's often a good idea to benchmark different sorting algorithms with your specific data to determine which one performs best for your particular use case.
+
+For my machine it was somewhere close to ~50 items.
 ```
 Array size	bubble_time	insertion_time	quick_time
 
